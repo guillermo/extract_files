@@ -9,7 +9,8 @@ Gem::Specification.new do |s|
   s.email       = ["guillermo@cientifico.net"]
   s.homepage    = "https://github.com/guillermo/extract_files"
   s.summary     = %q{Extract files from stdin or files given an extension/extensions}
-  s.description = File.read('README.md')
+  s.description = %q{Tired of generating big builds for the cdn? Just want to know wich files your designers in their css are really using? The images of all the static fiels? extract_files look inside json, html, css, and look for files based on a given extension or extensions.
+		run extract_files -h to have more help.}
 
   s.rubyforge_project = "extract_files"
 

@@ -16,3 +16,4 @@ end
 CLEAN.add 'bin/extract_files'
 
 
+task :default => [:clean, 'bin/extract_files', :test]
