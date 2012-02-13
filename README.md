@@ -1,6 +1,7 @@
 # Extract Files [![Build Status](https://secure.travis-ci.org/guillermo/extract_files.png)](http://travis-ci.org/guillermo/extract_files)
 
 Extract files from files or stdin for a given extension.
+[![endorse](http://api.coderwall.com/guillermo/endorsecount.png)](http://coderwall.com/guillermo)
 
 ## Yes, but i can do that with sed.
 
