@@ -39,7 +39,7 @@ OptionParser.new do |opts|
 
 end.parse!
 
-if ARGV.empty? || !$stdin.tty?
+if ARGV.empty? && !$stdin.tty?
 	ExtractFiles.extract!($stdin, options)
 	exit 0
 end

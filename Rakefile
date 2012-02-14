@@ -6,7 +6,7 @@ task :test do
 	sh "ruby -I lib -rubygems test/extract_files_test.rb"
 end
 
-file 'bin/extract_files' => ['lib/extract_files.rb', 'lib/extract_files/optparse.rb'] do
+file 'bin/extract_files' => ['lib/extract_files.rb', 'lib/extract_files/cli.rb'] do
 	sh "echo '#!/usr/bin/env ruby' > bin/extract_files"
 	sh "cat lib/extract_files.rb >> bin/extract_files"
 	sh "cat lib/extract_files/cli.rb >> bin/extract_files"
